@@ -12,8 +12,8 @@ Built as a portfolio project for an AI Automation Engineering role.
 
 - **Side-by-side comparison** — results displayed in columns for direct visual comparison
 - **Parallel execution** — all prompts run concurrently via `ThreadPoolExecutor`, so total wait time equals the slowest prompt, not the sum
-- **Per-prompt metrics** — response time, word count, character count, input/output tokens, stop reason
-- **Delta indicators** — prompts 2–4 show metric deltas relative to prompt 1 so regressions are immediately visible
+- **Per-prompt metrics** — response time, word count, input/output tokens, and stop reason displayed for every prompt
+- **Load Example / Clear** — one click to pre-fill all active prompt boxes with a 4-variation showcase, or reset everything
 - **Markdown report export** — download a structured `.md` file with all prompts, metrics, and responses
 - **Model selection** — switch between `claude-opus-4-6`, `claude-sonnet-4-6`, and `claude-haiku-4-5` from the sidebar
 - **Adjustable token budget** — control `max_tokens` per run via a sidebar slider
@@ -81,7 +81,7 @@ The app opens at `http://localhost:8501`.
 2. **Test Input** — enter the user message you want every prompt tested against.
 3. **Prompt Variations** — choose 2–4 variations and write a system prompt in each box.
 4. **Run All** — prompts execute in parallel; a spinner shows while they run.
-5. **Compare** — results appear side by side with metric deltas vs. prompt 1.
+5. **Compare** — results appear side by side with response time, word count, and token usage for each prompt.
 6. **Download** — export a structured Markdown report for sharing or archiving.
 
 ---
