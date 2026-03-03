@@ -52,7 +52,7 @@ prompt-lab/
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/coltonwubz-afk/prompt-lab.git
+git clone https://github.com/coltonshelnutt/prompt-lab.git
 cd prompt-lab
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
