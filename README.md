@@ -2,6 +2,8 @@
 
 [![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://prompt-lab-cs.streamlit.app)
 
+![Prompt Lab screenshot](docs/screenshot.png)
+
 A lightweight tool for testing and comparing Claude prompt variations side by side. Write 2–4 system prompts, enter a shared test input, hit **Run All**, and instantly see how each prompt performs — with response time, word count, and token usage tracked per result.
 
 Built as a portfolio project for an AI Automation Engineering role.
